@@ -1,6 +1,7 @@
 package ListVsSet;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ListDemo {
@@ -16,6 +17,13 @@ public class ListDemo {
         l1.add(null);
         System.out.println(l1);
 
+
+        //list interface ka ek method hota hai iterator  to iterate over an list and get its element
+        //list.iterator return object of iterator interface
+       Iterator itr= l1.iterator();
+       //next method of iterator class return the next object as it starts before  0 th index in list
+        while (itr.hasNext())
+        System.out.println(itr.next());
 
 
     }
