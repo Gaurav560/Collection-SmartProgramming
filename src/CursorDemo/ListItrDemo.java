@@ -23,9 +23,12 @@ public class ListItrDemo {
             System.out.println(l12.previous());
         }
 
-   l12.remove();
+ //  l12.remove();
+        System.out.println(l2);
+        l12.set(454);
         System.out.println(l2);
     }
+
 
 
 }
