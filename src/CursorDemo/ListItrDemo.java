@@ -22,6 +22,9 @@ public class ListItrDemo {
         while(l12.hasPrevious()){
             System.out.println(l12.previous());
         }
+
+   l12.remove();
+        System.out.println(l2);
     }
 
 
